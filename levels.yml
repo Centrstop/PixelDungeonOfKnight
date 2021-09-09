@@ -1,0 +1,21 @@
+levels:
+  - !empty_map {}
+  - !special_map
+    rat: 5
+    skeleton: 5
+    wizzard: 5
+    zombie: 5
+  - !special_map
+    rat: 3
+    zombie: 3
+    skeleton: 5
+    wizzard: 3
+    dragon: 3
+  - !special_map
+    rat: 5
+    skeleton: 5
+    zombie: 5
+    wizzard: 5
+    dragon: 5
+  - !random_map
+    dragon: 10
